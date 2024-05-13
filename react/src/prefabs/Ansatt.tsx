@@ -13,7 +13,7 @@ export function Ansatt() {
                     newImages[index] = "https://thispersondoesnotexist.com/";
                     return newImages;
                 });
-            }, index * 1);
+            }, index * 1000);
         });
     }, []);
 
