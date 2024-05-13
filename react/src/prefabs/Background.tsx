@@ -9,6 +9,6 @@ export function Background() {
             width: '100%',
             position: 'fixed',
             zIndex: -1
-          }}></div>
+        }}></div>
     );
 }
