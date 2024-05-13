@@ -12,7 +12,9 @@ export function Header() {
                 <h1 className='hover:text-[#2596be] transition-colors duration-200 cursor-pointer'>
                 <Link to="/lokasjon">Lokasjon</Link>
                 </h1>
-                <h1 className='hover:text-[#2596be] transition-colors duration-200 cursor-pointer'>Industries</h1>
+                <h1 className='hover:text-[#2596be] transition-colors duration-200 cursor-pointer'>
+                <Link to="/">Hjem</Link>
+                </h1>
                 <h1 className='hover:text-[#2596be] transition-colors duration-200 cursor-pointer'>Industries</h1>
                 <h1 className='hover:text-[#2596be] transition-colors duration-200 cursor-pointer'>Industries</h1>
             </div>
