@@ -2,7 +2,7 @@ import { SocialIcon } from 'react-social-icons'
 export function BigButton() {
     return (
         <>
-        <div className="flex justify-center gap-8 px-72 flex-wrap mb-9">
+        <div className="flex justify-center gap-8 px-50 flex-wrap mb-9">
             <div className="w-full bg-[#10141c] rounded-xl bg-opacity-80 border-[#1d3036] text-white h-72 max-w-72 p-8 flex flex-col justify-between">
                 <SocialIcon url='https://twitter.com'></SocialIcon>
                 <h1 className="text-left text-2xl mt-[-10px]">Managed Detection and Response</h1>
