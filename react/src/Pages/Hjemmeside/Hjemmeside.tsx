@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import { Header } from '../../prefabs/Header.tsx';
 import { BigButton } from '../../prefabs/BigButton.tsx';
 import { Background } from '../../prefabs/Background.tsx';
+import Footer from '../../prefabs/Footer.tsx';
 
 function Hjemmeside() {
 
@@ -23,6 +24,7 @@ function Hjemmeside() {
       <div>
         <BigButton></BigButton>
       </div>
+      <Footer></Footer>
     </>
   )
 }

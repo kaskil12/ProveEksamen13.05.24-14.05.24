@@ -22,22 +22,24 @@ export function Map() {
         <div className="w-full">
             <h1 className='text-gray-300 font-bold text-3xl'>Vår Lokasjon:</h1>
             <div className="rounded-lg overflow-hidden">
-                <MapContainer
-                    center={[60.80758436467838, 11.053091129300938]}
-                    zoom={13}
-                    style={{ height: mapSize.height, width: mapSize.width }}
-                    className="w-full"
-                >
-                    <TileLayer
-                        url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-                        attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-                    />
-                    <Marker position={[60.80758436467838, 11.053091129300938]}>
-                        <Popup>
-                            vårt hjemmested <br /> Hamar
-                        </Popup>
-                    </Marker>
-                </MapContainer>
+                <div style={{ maxWidth: '600px', width: '100%' }}> {/* Adjust the maxWidth here */}
+                    <MapContainer
+                        center={[60.80758436467838, 11.053091129300938]}
+                        zoom={13}
+                        style={{ height: mapSize.height, width: mapSize.width }}
+                        className="w-full"
+                    >
+                        <TileLayer
+                            url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+                            attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+                        />
+                        <Marker position={[60.80758436467838, 11.053091129300938]}>
+                            <Popup>
+                                vårt hjemmested <br /> Hamar
+                            </Popup>
+                        </Marker>
+                    </MapContainer>
+                </div>
             </div>
         </div>
     );
