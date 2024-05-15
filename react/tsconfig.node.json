@@ -6,7 +6,7 @@
     "moduleResolution": "bundler",
     "allowSyntheticDefaultImports": true,
     "strict": true,
-    "outDir": "dist",
+    "outDir": "./dist",
   },
   "include": ["vite.config.ts"]
 }
