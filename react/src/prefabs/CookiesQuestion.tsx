@@ -21,7 +21,7 @@ const CookiesQuestion = () => {
                 <div className="fixed inset-0 flex items-center justify-center bg-gradient-to-br from-black to-turquoise bg-opacity-50">
                     <div className="bg-gradient-to-br from-darkblue to-lightblue p-4 rounded-md text-white border border-white">
                         <h2 className="text-lg font-bold mb-2">Godta Cookies</h2>
-                        <p className="mb-4">Vil du at denne siden skal bruke cookies for å øke din brukeropplevelse test?</p>
+                        <p className="mb-4">Vil du at denne siden skal bruke cookies for å øke din brukeropplevelse?</p>
                         <div className="flex justify-center items-end">
                             <button className="mr-2 px-4 py-2 bg-none text-green-500 rounded-md border border-green-500" onClick={acceptCookies}>
                                 Accept

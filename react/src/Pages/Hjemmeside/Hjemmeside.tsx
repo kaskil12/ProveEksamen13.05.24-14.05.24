@@ -1,15 +1,10 @@
 
-import { Header } from '../../prefabs/Header.tsx';
 import { BigButton } from '../../prefabs/BigButton.tsx';
-import { Background } from '../../prefabs/Background.tsx';
-import Footer from '../../prefabs/Footer.tsx';
 
 function Hjemmeside() {
 
   return (
     <>
-    <Background />
-      <Header></Header>
       {/* introduction part */}
       <div className='text-center text-white'>
         <div className='font-bold text-4xl md:text-9xl mt-[9rem]'>
@@ -23,7 +18,6 @@ function Hjemmeside() {
       <div>
         <BigButton></BigButton>
       </div>
-      <Footer></Footer>
     </>
   )
 }
