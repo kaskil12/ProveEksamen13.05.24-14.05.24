@@ -3,6 +3,7 @@ import App from "../App";
 import AnsatteSide from "../Pages/AnsatteSide/AnsatteSide";
 import LokasjonSide from "../Pages/LokasjonSide/LokasjonSide";
 import Hjemmeside from "../Pages/Hjemmeside/Hjemmeside";
+import KontaktskjemaSide from "../Pages/KontaktskjemaSide/KontaktskjemaSide";
 
 export const router = createBrowserRouter([
     {
@@ -21,6 +22,10 @@ export const router = createBrowserRouter([
                 path: "/lokasjon",
                 element: <LokasjonSide />,
             },
+            {
+                path: "/kontakt",
+                element: <KontaktskjemaSide />,
+            }
         ],
     }
 ])
