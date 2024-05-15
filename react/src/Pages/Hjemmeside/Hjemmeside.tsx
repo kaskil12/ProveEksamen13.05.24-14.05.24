@@ -1,5 +1,4 @@
-import { useState } from 'react'
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+
 import { Header } from '../../prefabs/Header.tsx';
 import { BigButton } from '../../prefabs/BigButton.tsx';
 import { Background } from '../../prefabs/Background.tsx';

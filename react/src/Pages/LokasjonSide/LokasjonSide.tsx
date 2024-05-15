@@ -1,8 +1,8 @@
-import React from 'react';
+
 import { Header } from '../../prefabs/Header';
 import { Background } from '../../prefabs/Background';
 import { Map } from '../../prefabs/Map';
-import Boss from '../../assets/Boss.png';
+
 import Footer from '../../prefabs/Footer';
 
 function LokasjonSide() {
