@@ -10,8 +10,6 @@ Prosjektet tar i bruk mange komponenter for å gjøre at sidene ikke har for rot
 
 ## Hva er prosjektet bygget opp av?
 
-Kode.
-
 ### Avhengigheter
 
 * React med TypeScript
